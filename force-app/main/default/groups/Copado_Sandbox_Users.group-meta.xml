@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Users with access to Copado sandbox environments</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <name>Copado Sandbox Users</name>
+</Group>
