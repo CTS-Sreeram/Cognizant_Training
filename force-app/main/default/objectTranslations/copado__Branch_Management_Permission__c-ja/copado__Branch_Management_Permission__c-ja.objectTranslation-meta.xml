@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>パイプライン権限</value>
     </caseValues>
+    <layouts>
+        <layout>Branch Management Permission Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>パイプライン権限参照</nameFieldLabel>
 </CustomObjectTranslation>

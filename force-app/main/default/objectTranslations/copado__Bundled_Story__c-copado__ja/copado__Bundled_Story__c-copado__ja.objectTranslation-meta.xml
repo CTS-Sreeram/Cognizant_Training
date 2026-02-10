@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>バンドルストーリー</value>
     </caseValues>
+    <fieldSets>
+        <label>バンドル</label>
+        <name>copado__Bundle</name>
+    </fieldSets>
     <nameFieldLabel>バンドルストーリー名</nameFieldLabel>
 </CustomObjectTranslation>

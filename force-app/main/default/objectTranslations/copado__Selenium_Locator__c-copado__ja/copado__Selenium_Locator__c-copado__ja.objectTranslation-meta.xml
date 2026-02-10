@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Seleniumロケーター</value>
     </caseValues>
+    <layouts>
+        <layout>Selenium Locator Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Seleniumロケーター名</nameFieldLabel>
 </CustomObjectTranslation>

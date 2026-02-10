@@ -176,4 +176,12 @@
         <name>cmcSf__CMC_SFDX</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>EBikes</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>E-Bikes</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>メタデータ・グループ</value>
     </caseValues>
+    <layouts>
+        <layout>Metadata Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>メタデータ・グループ名</nameFieldLabel>
 </CustomObjectTranslation>

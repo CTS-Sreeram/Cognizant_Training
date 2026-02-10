@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Destination Credentials</value>
     </caseValues>
+    <layouts>
+        <layout>Destination Org Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Progress --></label>
+            <section>Progress</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

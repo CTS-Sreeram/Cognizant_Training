@@ -20,6 +20,31 @@
                 <default>false</default>
                 <label>SFDX Scanner</label>
             </value>
+            <value>
+                <fullName>PMD</fullName>
+                <default>false</default>
+                <label>PMD</label>
+            </value>
+            <value>
+                <fullName>Copado Robotic Testing</fullName>
+                <default>false</default>
+                <label>Copado Robotic Testing</label>
+            </value>
+            <value>
+                <fullName>Pull Request</fullName>
+                <default>false</default>
+                <label>Pull Request</label>
+            </value>
+            <value>
+                <fullName>Apex Tests</fullName>
+                <default>false</default>
+                <label>Apex Tests</label>
+            </value>
+            <value>
+                <fullName>metadata-report-hs</fullName>
+                <default>false</default>
+                <label>metadata-report-hs</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

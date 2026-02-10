@@ -2,5 +2,9 @@
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>PartnerCloudPartnerUserPsg</label>
+    <permissionSets>force__ContactInspectionForPartnersPartnerCommunityLoginUser</permissionSets>
+    <permissionSets>force__ContactInspectionForPartnersPartnerCommunityUser</permissionSets>
+    <permissionSets>force__LeadInspectionForPartnersPartnerCommunityLoginUser</permissionSets>
+    <permissionSets>force__LeadInspectionForPartnersPartnerCommunityUser</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

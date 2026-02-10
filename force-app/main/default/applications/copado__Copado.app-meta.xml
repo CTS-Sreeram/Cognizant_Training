@@ -8,7 +8,6 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Copado Release Manager</label>
-    <logo>copado__Copado/copado__Copado_Logo.png</logo>
     <tabs>copado__Getting_Started</tabs>
     <tabs>copado__Deployment__c</tabs>
     <tabs>copado__Snapshot_Difference__c</tabs>

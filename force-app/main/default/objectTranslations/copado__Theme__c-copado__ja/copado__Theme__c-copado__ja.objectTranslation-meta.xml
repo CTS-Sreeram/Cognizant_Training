@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>テーマ</value>
     </caseValues>
+    <layouts>
+        <layout>Theme Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>テーマ名</nameFieldLabel>
 </CustomObjectTranslation>

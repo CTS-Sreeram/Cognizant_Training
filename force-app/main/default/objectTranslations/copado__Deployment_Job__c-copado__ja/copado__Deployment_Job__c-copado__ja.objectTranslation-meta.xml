@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>デプロイメント・ジョブ</value>
     </caseValues>
+    <layouts>
+        <layout>Deployment Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>デプロイメント・ジョブ名</nameFieldLabel>
 </CustomObjectTranslation>

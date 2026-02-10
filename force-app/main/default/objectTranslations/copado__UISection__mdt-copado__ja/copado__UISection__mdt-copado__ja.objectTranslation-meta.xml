@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- UISection --></value>
     </caseValues>
+    <layouts>
+        <layout>UISection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Quality Gate Rule Conditions</value>
     </caseValues>
+    <layouts>
+        <layout>Quality Gate Rule Condition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- The selected platform does not match the chosen pipeline or environment platform value. --></errorMessage>
+        <name>copado__ConsistentPlatform</name>
+    </validationRules>
 </CustomObjectTranslation>

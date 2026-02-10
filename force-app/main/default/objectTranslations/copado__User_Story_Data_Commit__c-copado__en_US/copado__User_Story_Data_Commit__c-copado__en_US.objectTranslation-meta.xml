@@ -8,5 +8,28 @@
         <plural>true</plural>
         <value>User Story Data Commits</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Data Commit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Commit Date once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>copado__Prevent_change_Commit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Commit Message once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>copado__Prevent_change_Commit_Message</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Data Set once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>copado__Prevent_change_Data_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Execution Job once the User Story Data Commit has been created. Please create a new  User Story Data Commit. --></errorMessage>
+        <name>copado__Prevent_change_Execution_Job</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- Feature Toggle Group --></value>
     </caseValues>
+    <layouts>
+        <layout>Feature Toggle Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

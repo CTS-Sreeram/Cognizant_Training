@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value><!-- 項目値マッピング --></value>
     </caseValues>
+    <layouts>
+        <layout>Field Value Mapping Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Field Value Mapping Name --></nameFieldLabel>
 </CustomObjectTranslation>

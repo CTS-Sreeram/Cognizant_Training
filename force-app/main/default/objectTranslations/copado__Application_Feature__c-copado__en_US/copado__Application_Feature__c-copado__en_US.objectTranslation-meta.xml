@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value>Features</value>
     </caseValues>
+    <layouts>
+        <layout>Feature Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

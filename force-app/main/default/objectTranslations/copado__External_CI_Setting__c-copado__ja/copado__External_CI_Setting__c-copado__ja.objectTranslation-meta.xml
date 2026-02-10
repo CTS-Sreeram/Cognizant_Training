@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>外部CI設定</value>
     </caseValues>
+    <layouts>
+        <layout>External CI Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>外部CI設定名</nameFieldLabel>
 </CustomObjectTranslation>

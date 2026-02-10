@@ -21,9 +21,9 @@
                 <label>Other</label>
             </value>
             <value>
-                <fullName>Salesforce DX</fullName>
+                <fullName>SFDX</fullName>
                 <default>false</default>
-                <label>Salesforce DX</label>
+                <label>SFDX</label>
             </value>
         </valueSetDefinition>
     </valueSet>

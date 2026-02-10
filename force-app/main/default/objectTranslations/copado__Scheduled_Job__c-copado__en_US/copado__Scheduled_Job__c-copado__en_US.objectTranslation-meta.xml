@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value>Scheduled Jobs</value>
     </caseValues>
+    <layouts>
+        <layout>Scheduled Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Test Execution --></label>
+        <name>copado__Test_Execution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Webhook --></label>
+        <name>copado__Webhook</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Feature Toggles</value>
     </caseValues>
+    <layouts>
+        <layout>Feature Toggle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

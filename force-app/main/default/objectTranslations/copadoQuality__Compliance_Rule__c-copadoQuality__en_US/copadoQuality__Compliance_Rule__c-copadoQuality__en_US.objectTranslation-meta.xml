@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Compliance Rules</value>
     </caseValues>
+    <layouts>
+        <layout>Compliance Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

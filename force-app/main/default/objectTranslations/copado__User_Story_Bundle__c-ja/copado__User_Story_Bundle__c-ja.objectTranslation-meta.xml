@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value><!-- DEPRECATED --></value>
     </caseValues>
+    <layouts>
+        <layout>User Story Bundle Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- User Story Bundle Name --></nameFieldLabel>
 </CustomObjectTranslation>

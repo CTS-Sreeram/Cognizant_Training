@@ -8,5 +8,24 @@
         <plural>true</plural>
         <value>Functional Review Sessions</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Assignment Field Set --></label>
+        <name>copadoQuality__AssignmentFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RelatedList --></label>
+        <name>copadoQuality__RelatedList</name>
+    </fieldSets>
+    <layouts>
+        <layout>Functional Review Session Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

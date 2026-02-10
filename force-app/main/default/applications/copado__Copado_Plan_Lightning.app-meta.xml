@@ -47,7 +47,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#2463EB</headerColor>
-        <logo>copado__Copado_App_Icon_Plan</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>

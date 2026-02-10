@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Bundled Stories</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Bundle --></label>
+        <name>copado__Bundle</name>
+    </fieldSets>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

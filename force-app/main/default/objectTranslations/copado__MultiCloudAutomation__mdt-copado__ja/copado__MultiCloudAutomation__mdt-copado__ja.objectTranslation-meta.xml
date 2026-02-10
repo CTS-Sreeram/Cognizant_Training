@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- MultiCloudAutomation --></value>
     </caseValues>
+    <layouts>
+        <layout>MultiCloudAutomationMap Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

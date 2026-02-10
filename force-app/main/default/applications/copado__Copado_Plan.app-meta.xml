@@ -7,7 +7,6 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Copado Plan</label>
-    <logo>copado__Copado/copado__Copado_Logo.png</logo>
     <tabs>copado__Theme__c</tabs>
     <tabs>copado__Application__c</tabs>
     <tabs>copado__Project__c</tabs>

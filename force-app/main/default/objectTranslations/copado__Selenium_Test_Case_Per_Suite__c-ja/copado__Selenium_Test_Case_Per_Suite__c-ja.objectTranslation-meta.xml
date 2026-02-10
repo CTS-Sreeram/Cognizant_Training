@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>スイートごとのSeleniumテストケース</value>
     </caseValues>
+    <layouts>
+        <layout>Selenium Test Case per Suite Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>リファレンス#</nameFieldLabel>
 </CustomObjectTranslation>

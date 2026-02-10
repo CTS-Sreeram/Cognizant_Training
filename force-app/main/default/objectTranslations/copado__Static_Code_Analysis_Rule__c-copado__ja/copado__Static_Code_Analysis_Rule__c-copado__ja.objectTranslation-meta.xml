@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>静的コード分析ルール</value>
     </caseValues>
+    <layouts>
+        <layout>Static Code Analysis Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>静的コード分析ルール名</nameFieldLabel>
 </CustomObjectTranslation>

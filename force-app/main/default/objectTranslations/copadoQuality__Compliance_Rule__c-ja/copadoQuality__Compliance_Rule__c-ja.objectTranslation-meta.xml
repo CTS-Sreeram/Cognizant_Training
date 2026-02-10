@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value><!-- コンプライアンス・ルール --></value>
     </caseValues>
+    <layouts>
+        <layout>Compliance Rule Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Rule ID --></nameFieldLabel>
 </CustomObjectTranslation>

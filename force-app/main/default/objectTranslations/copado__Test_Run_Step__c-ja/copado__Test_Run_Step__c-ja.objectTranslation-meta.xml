@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>テスト実行ステップ</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- TestRunExecutionFieldSet --></label>
+        <name>copado__TestRunExecutionFieldSet</name>
+    </fieldSets>
+    <layouts>
+        <layout>Test Execution Step Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>新セクション</label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>テスト実行ステップ名</nameFieldLabel>
 </CustomObjectTranslation>

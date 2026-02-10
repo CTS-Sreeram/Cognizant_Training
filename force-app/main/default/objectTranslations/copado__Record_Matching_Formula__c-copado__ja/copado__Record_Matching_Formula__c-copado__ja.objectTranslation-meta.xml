@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>レコード・マッチング式</value>
     </caseValues>
+    <layouts>
+        <layout>Record Matching Formula Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>レコード・マッチング式名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>値が選択されると、Configuration Schema Credentialは変更できません。</errorMessage>
+        <name>copado__RestrictSchemaCredentialModification</name>
+    </validationRules>
 </CustomObjectTranslation>

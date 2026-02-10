@@ -5,6 +5,31 @@
         <default>false</default>
         <label>None</label>
     </customValue>
+    <customValue>
+        <fullName>Copado Robotic Testing</fullName>
+        <default>false</default>
+        <label>Copado Robotic Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>PMD</fullName>
+        <default>false</default>
+        <label>PMD</label>
+    </customValue>
+    <customValue>
+        <fullName>metadata-report-hs</fullName>
+        <default>false</default>
+        <label>metadata-report-hs</label>
+    </customValue>
+    <customValue>
+        <fullName>Apex Tests</fullName>
+        <default>false</default>
+        <label>Apex Tests</label>
+    </customValue>
+    <customValue>
+        <fullName>Pull Request</fullName>
+        <default>false</default>
+        <label>Pull Request</label>
+    </customValue>
     <masterLabel>Copado Test Tool</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

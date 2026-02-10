@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>環境変数</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Related List --></label>
+        <name>copado__RelatedList</name>
+    </fieldSets>
+    <layouts>
+        <layout>Environment Variable Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>環境変数名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Value is required --></errorMessage>
+        <name>copado__Value_is_required</name>
+    </validationRules>
 </CustomObjectTranslation>

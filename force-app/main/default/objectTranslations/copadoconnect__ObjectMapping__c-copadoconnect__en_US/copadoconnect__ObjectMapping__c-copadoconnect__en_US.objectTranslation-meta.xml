@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Object Mappings</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Objects Mappings --></label>
+        <name>copadoconnect__Objects_Mappings</name>
+    </fieldSets>
+    <layouts>
+        <layout>Object Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

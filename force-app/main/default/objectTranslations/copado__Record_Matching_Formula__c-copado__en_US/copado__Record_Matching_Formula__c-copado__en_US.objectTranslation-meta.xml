@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Record Matching Formulas</value>
     </caseValues>
+    <layouts>
+        <layout>Record Matching Formula Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can not change the Configuration Schema Credential once the value is selected. --></errorMessage>
+        <name>copado__RestrictSchemaCredentialModification</name>
+    </validationRules>
 </CustomObjectTranslation>

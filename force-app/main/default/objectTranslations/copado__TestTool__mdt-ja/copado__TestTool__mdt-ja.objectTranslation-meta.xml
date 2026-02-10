@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- Test Tool --></value>
     </caseValues>
+    <layouts>
+        <layout>Test Tool Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

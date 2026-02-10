@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>チームメンバー</value>
     </caseValues>
+    <layouts>
+        <layout>Team Member Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>チームメンバー名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Pull Request Reviews</value>
     </caseValues>
+    <layouts>
+        <layout>Pull Request Review Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- URLs + Comments --></label>
+            <section>URLs + Comments</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

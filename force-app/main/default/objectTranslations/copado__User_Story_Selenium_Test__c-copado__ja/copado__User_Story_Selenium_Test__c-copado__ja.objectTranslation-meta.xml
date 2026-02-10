@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ユーザーストーリーSeleniumテスト</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Selenium Test Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ユーザーストーリー Selenium テスト名</nameFieldLabel>
 </CustomObjectTranslation>

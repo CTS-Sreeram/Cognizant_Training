@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ユーザーストーリータスク</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Task Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ユーザーストーリータスク名</nameFieldLabel>
 </CustomObjectTranslation>

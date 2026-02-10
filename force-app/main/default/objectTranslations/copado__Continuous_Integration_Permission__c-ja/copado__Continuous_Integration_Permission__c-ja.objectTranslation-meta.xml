@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>継続的インテグレーションの許可</value>
     </caseValues>
+    <layouts>
+        <layout>Continuous Integration Permission Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>権限リファレンス</nameFieldLabel>
 </CustomObjectTranslation>

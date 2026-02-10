@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>External CI Job Results</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Related List Fields --></label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

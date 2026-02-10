@@ -4,4 +4,11 @@
         <plural>false</plural>
         <value><!-- Copado Setting --></value>
     </caseValues>
+    <layouts>
+        <layout>Copado Setting Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

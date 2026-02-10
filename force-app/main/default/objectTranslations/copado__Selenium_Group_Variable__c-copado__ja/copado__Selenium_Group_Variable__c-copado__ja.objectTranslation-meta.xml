@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Seleniumグループ変数</value>
     </caseValues>
+    <layouts>
+        <layout>Selenium Group Variable Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Seleniumグループ変数名</nameFieldLabel>
 </CustomObjectTranslation>

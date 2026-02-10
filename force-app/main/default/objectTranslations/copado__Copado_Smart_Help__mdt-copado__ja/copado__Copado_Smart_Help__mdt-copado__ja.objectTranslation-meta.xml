@@ -4,4 +4,15 @@
         <plural>false</plural>
         <value><!-- Copado Smart Help --></value>
     </caseValues>
+    <layouts>
+        <layout>Copado Smart Help Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage>トリガーメタデータ項目を入力するには、メタデータタイプを入力してください。</errorMessage>
+        <name>copado__Validate_triggering_metadata_type</name>
+    </validationRules>
 </CustomObjectTranslation>

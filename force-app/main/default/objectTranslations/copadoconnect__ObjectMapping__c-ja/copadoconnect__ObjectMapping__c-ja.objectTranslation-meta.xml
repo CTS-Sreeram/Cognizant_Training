@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value><!-- オブジェクトマッピング --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Objects Mappings --></label>
+        <name>copadoconnect__Objects_Mappings</name>
+    </fieldSets>
+    <layouts>
+        <layout>Object Mapping Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Object Mapping Name --></nameFieldLabel>
 </CustomObjectTranslation>

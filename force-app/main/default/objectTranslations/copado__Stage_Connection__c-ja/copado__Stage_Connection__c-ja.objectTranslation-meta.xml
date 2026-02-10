@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>ステージ接続</value>
     </caseValues>
+    <layouts>
+        <layout>Stage Connection Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>ステージの依存関係</label>
+            <section>Stage Dependencies</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ステージ接続名</nameFieldLabel>
 </CustomObjectTranslation>

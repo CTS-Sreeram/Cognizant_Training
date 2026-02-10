@@ -4,5 +4,26 @@
         <plural>false</plural>
         <value>コンプライアンス所見</value>
     </caseValues>
+    <layouts>
+        <layout>Compliance Finding Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>コンプライアンスに関する指摘事項</nameFieldLabel>
+    <recordTypes>
+        <description>このレコードタイプは、コパードによって生成されたスキャン調査結果に使用されます。</description>
+        <label>コパード</label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>このレコードタイプを使用して、セールスフォース以外のスキャン結果をキャプチャします。</description>
+        <label>その他</label>
+        <name>copado__Other</name>
+    </recordTypes>
 </CustomObjectTranslation>

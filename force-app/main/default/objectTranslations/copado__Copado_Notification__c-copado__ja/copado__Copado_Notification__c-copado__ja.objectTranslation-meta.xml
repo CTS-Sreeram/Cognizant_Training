@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>コパード通知</value>
     </caseValues>
+    <layouts>
+        <layout>Copado Notification Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>コパード通知名</nameFieldLabel>
 </CustomObjectTranslation>

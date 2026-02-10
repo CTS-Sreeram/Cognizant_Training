@@ -51,6 +51,26 @@
         <label>PackageDistribution</label>
     </customValue>
     <customValue>
+        <fullName>Promote</fullName>
+        <default>false</default>
+        <label>Promote</label>
+    </customValue>
+    <customValue>
+        <fullName>Deploy</fullName>
+        <default>false</default>
+        <label>Deploy</label>
+    </customValue>
+    <customValue>
+        <fullName>Rollback</fullName>
+        <default>false</default>
+        <label>Rollback</label>
+    </customValue>
+    <customValue>
+        <fullName>Submit Deployment</fullName>
+        <default>false</default>
+        <label>Submit Deployment</label>
+    </customValue>
+    <customValue>
         <fullName>PackageCreation</fullName>
         <default>false</default>
         <isActive>false</isActive>

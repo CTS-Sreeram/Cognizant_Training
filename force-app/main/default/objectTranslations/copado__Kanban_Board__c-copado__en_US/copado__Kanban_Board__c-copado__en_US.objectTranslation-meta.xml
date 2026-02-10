@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Kanban Boards</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Edit --></label>
+        <name>copado__Edit</name>
+    </fieldSets>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value>Test Scripts</value>
     </caseValues>
+    <layouts>
+        <layout>Test Script Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Test_Script_Steps --></label>
+        <name>copado__Add_Test_Script_Steps</name>
+    </webLinks>
 </CustomObjectTranslation>

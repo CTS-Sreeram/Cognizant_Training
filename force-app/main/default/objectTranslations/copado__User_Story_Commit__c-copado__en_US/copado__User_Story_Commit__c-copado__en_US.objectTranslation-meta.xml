@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>User Story Commits</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Commit Layout</layout>
+        <sections>
+            <label><!-- Commit Information --></label>
+            <section>Commit Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Data Template Setups</value>
     </caseValues>
+    <layouts>
+        <layout>Data Template Setup Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

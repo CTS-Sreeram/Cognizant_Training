@@ -8,5 +8,26 @@
         <plural>true</plural>
         <value>Compliance Findings</value>
     </caseValues>
+    <layouts>
+        <layout>Compliance Finding Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This record type is used for scan findings produced by Copado. --></description>
+        <label><!-- Copado --></label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this record type to capture non-Salesforce scan findings. --></description>
+        <label><!-- Other --></label>
+        <name>copado__Other</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
