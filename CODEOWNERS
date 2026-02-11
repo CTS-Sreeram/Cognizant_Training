@@ -1,5 +1,5 @@
-# Default owners for everything
-@CTS-Sreeram
+# Default reviewers
+* @CTS-Sreeram
 
-# Salesforce metadata owners
-force-app/ @salesforce-team @CTS-Sreeram
+# Salesforce metadata
+force-app/ @CTS-Sreeram @your
