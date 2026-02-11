@@ -1,0 +1,5 @@
+# Default owners for everything
+@CTS-Sreeram
+
+# Salesforce metadata owners
+force-app/ @salesforce-team @CTS-Sreeram
