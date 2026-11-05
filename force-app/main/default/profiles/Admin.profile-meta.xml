@@ -5,6 +5,10 @@
         <apexClass>TravelPreferenceService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TravelPreferenceServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <description n1:nil="true" />
     <fieldPermissions>
