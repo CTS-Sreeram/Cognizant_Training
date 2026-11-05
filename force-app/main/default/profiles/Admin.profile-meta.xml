@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+    <classAccesses>
+        <apexClass>TravelPreferenceService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TravelPreferenceServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
+    <description n1:nil="true" />
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.CopadoTraining__c</field>
+        <field>Account.Travel_Preference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -15,6 +24,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AIViewInsightObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AcceptInboundBundling</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -326,6 +339,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>GrantOutboundBundling</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ImportCustomObjects</name>
     </userPermissions>
     <userPermissions>
@@ -343,6 +360,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>InstallPackaging</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IntegrationIntelligenceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -842,6 +863,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewProductLimits</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
@@ -859,6 +884,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetupAuditTrail</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

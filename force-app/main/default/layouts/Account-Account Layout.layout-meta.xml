@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>CopadoTraining__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Travel_Preference__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
