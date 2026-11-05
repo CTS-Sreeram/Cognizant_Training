@@ -1,30 +1,33 @@
 /**
- * TravelPreferenceService
- * -----------------------
- * Populates Account.Travel_Preference__c.
- *
- * Two entry points:
- *   1. applyDefaults(List<Account>)  - call from a BEFORE trigger. Fills in a
- *      preference (when blank) based on the Account's billing country.
- *      No DML, so it is safe to call in before insert / before update.
- *   2. setPreference(Set<Id>, String) - updates existing Accounts to a given
- *      value (e.g. from a button, Flow, or batch job). Performs DML.
- *
- * Adjust the values below to match your Travel_Preference__c picklist values.
+ * @description Populates Account.Travel_Preference__c. Call applyDefaults from a
+ *              before trigger to default blank values from BillingCountry, or call
+ *              setPreference to update existing Accounts to a chosen value.
+ *              Adjust the PREF_* constants to match your picklist values.
  */
 public with sharing class TravelPreferenceService {
 
-    public static final String PREF_DOMESTIC      = 'Domestic';
-    public static final String PREF_INTERNATIONAL = 'International';
-    public static final String PREF_NONE          = 'No Travel';
+    /** @description Value for Accounts in the home country. */
+    public static final String PREF_DOMESTIC = 'Domestic';
 
-    // Country treated as "home" for the domestic/international rule.
+    /** @description Value for Accounts outside the home country. */
+    public static final String PREF_INTERNATIONAL = 'International';
+
+    /** @description Value for Accounts with no billing country. */
+    public static final String PREF_NONE = 'No Travel';
+
     @TestVisible
     private static final String HOME_COUNTRY = 'United States';
 
     /**
-     * Fills Travel_Preference__c on records where it is blank.
-     * Intended for before insert / before update triggers (no DML).
+     * @description Error messages from the most recent setPreference call.
+     */
+    @TestVisible
+    private static List<String> lastErrors = new List<String>();
+
+    /**
+     * @description Fills Travel_Preference__c on records where it is blank.
+     *              Intended for before insert / before update triggers (no DML).
+     * @param accounts Records from Trigger.new
      */
     public static void applyDefaults(List<Account> accounts) {
         if (accounts == null || accounts.isEmpty()) {
@@ -38,10 +41,14 @@ public with sharing class TravelPreferenceService {
     }
 
     /**
-     * Sets Travel_Preference__c to the given value on the specified Accounts.
-     * Returns the number of records successfully updated.
+     * @description Sets Travel_Preference__c to the given value on the specified
+     *              Accounts, enforcing the running user's CRUD/FLS (user mode).
+     * @param accountIds Ids of the Accounts to update
+     * @param preference Value to set
+     * @return Number of records successfully updated
      */
     public static Integer setPreference(Set<Id> accountIds, String preference) {
+        lastErrors = new List<String>();
         if (accountIds == null || accountIds.isEmpty()) {
             return 0;
         }
@@ -56,22 +63,20 @@ public with sharing class TravelPreferenceService {
 
         // allOrNone = false: one bad record does not roll back the rest.
         Integer successCount = 0;
-        for (Database.SaveResult sr : Database.update(toUpdate, false)) {
+        List<Database.SaveResult> results =
+            Database.update(toUpdate, false, AccessLevel.USER_MODE);
+        for (Database.SaveResult sr : results) {
             if (sr.isSuccess()) {
                 successCount++;
             } else {
                 for (Database.Error err : sr.getErrors()) {
-                    System.debug(LoggingLevel.ERROR,
-                        'Failed to set Travel_Preference__c on ' + sr.getId() + ': ' + err.getMessage());
+                    lastErrors.add(err.getMessage());
                 }
             }
         }
         return successCount;
     }
 
-    /**
-     * Business rule for the default value. Replace with your own logic.
-     */
     @TestVisible
     private static String derivePreference(Account acc) {
         if (String.isBlank(acc.BillingCountry)) {
